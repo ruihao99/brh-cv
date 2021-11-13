@@ -1,0 +1,46 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[hmargin={.5 in, .8 in}, vmargin={.5 in, .8 in}]{geometry}
+\usepackage[inline]{enumitem}
+\setlist[itemize]{nosep}
+
+%%%%%% TODOS %%%%%%
+%* add website
+%* \hfill rule: make it prettier
+%* reorganize SOFTWARE SKILL part: 
+%  add DEEPMD, cp2k, python in general, ase,
+% ...
+
+
+%%%
+\usepackage{anysize}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+%%%
+
+%%%%%%%%% skip defining %%%%%%%%%%%%%%
+%% I know latex has smallskip, medskip etc. but I think it is important to have fine control over your output and define your own skips
+\newcommand{\smallspace}{\vspace{1mm}}
+
+%\newcommand{\medspace}{\vspace{3mm}}
+
+\newcommand{\largespace}{\vspace{5mm}}
+
+\renewcommand{\baselinestretch}{1}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%% section config %%%%%%%%%%%%%%%
+\newcommand{\sectionrule}{\noindent\hfil\rule[1.5mm]{\textwidth}{1.pt}\hfil} % section rule, the weight could me tailored here
+
+\newcommand{\sectionheading}[1]{\noindent{\large{\textsc{#1}}}\par}
+
+\newcommand{\subsectionheading}[2]{\noindent {\textbf{#1}} \hfill {#2} }
+% #1 for items and #2 for the time notation
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%
+\setlength{\parskip}{0pt}
+
+\begin{document}
+	\input{./cv.tex}
+\end{document}
