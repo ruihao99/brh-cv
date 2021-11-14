@@ -27,21 +27,21 @@ Email: [biruihao@stu.xmu.edu.cn](mailto:biruihao@stu.xmu.edu.cn) or [brh@qq.com]
     | Preliminary Statistical Thermodynamics |  short-semester| (A) |
     | Chemical Kinetics and Reaction Dynamics |  1-semester| (A+) |
 
-## Research Experience
+## Academic Experience
 
-### Synthetic Study Towards Clionastatin B
+### Research Towards Synthesis of Clionastatin B
 
 (Undergraduate thesis) 
 
 Sept. 2019 - May. 2021
 
-Supervisor: Prof. Yandong Zhang, XMU
+Supervisor: Prof. Yandong Zhang, XMU. [Group Page](https://zhanglab.xmu.edu.cn/)
 
 - A facial selective epoxydation of an electronic deficient enone.
+- Enone formation by deprotonation of ketone.
+- Attempts to dehydrate a neopentylic alcohol (sterically hindered and susceptible  to rearrangement).
 
-- Enone formation from deprotonation of ketone.
-
-- Attempts to dehydrate a neopentylic alcohol.
+![thesis](./_assets/brh_cv/thesis.jpg)
 
 
 
@@ -49,7 +49,39 @@ Supervisor: Prof. Yandong Zhang, XMU
 
 (Research assistant) 
 
-Jul. 2019 - now
+Jul. 2021 - now
 
-Supervisor: Prof. Jun Cheng, XMU
+Supervisor: Prof. Jun Cheng, XMU. [Group Page](https://chengjun.xmu.edu.cn/)
+
+- Trained MLP using `DeePMD` package; dataset exploration using `DPGEN` package.
+
+- Obtained MLP gives DFT accuracy energy/force prediction for terraced  $\ce{TiO2}$ ($[1\overline{1}1]$ step) water interface model.
+
+- Developed efficient python (multiprocessing) code to compute dissociation degree of $\ce{Ti_{CN5}}$ adsorbed water.
+
+- Discovered that $\ce{Ti_{CN5}}$ adsorbed water are closer towards ?? $\ce{O_{br}}$ than ?? $\ce{O_{br}}$.
+
+![rutile]()
+
+## Professional Skills
+
+### Calculation packages
+
+- `DeePMD-kit` series: Training, configuration space exploration, dataset management.
+- `CP2K`: Single point calculation.
+- `LAMMPS`: MLP molecular dynamics, radial distribution function (RDF) calculation.
+
+### Programming skills
+
+- `shell` scripting.
+- `python` scripting:  plotting data (`matplotlib`), fast trajecotry analysis (`MDAnalysis`, `ASE`).
+
+## Selected Awards
+
+- The Wang Laoji Scholarship, XMU (2/96), Apr. 2021.
+- Sucessful Participant of Mathematical Contest in Modelling, May 2020.
+- The Elite Undergraduate Program of Chemistry Scholarship, XMU (18/168) , 2018-2021, 4 times.
+- Scholarship of Academic Excellence, XMU (15/168), Jan.2018. 
+
+
 
