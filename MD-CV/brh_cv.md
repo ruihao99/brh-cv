@@ -59,7 +59,7 @@ Supervisor: Prof. Yandong Zhang, XMU. [Group Page](https://zhanglab.xmu.edu.cn/)
 - Enone formation by deprotonation of ketone.
 - Attempts to dehydrate a neopentylic alcohol (sterically hindered and susceptible  to rearrangement).
 
-![thesis](https://github.com/ruihao69/brh-cv/tree/master/MD-CV/_assets/brh_cv/thesis.png)
+![thesis](https://github.com/ruihao69/brh-cv/raw/master/MD-CV/_assets/brh_cv/thesis.jpg`)
 
 
 ## Professional Skills
