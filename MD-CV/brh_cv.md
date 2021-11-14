@@ -20,7 +20,7 @@ Email: [biruihao@stu.xmu.edu.cn](mailto:biruihao@stu.xmu.edu.cn) or [brh@qq.com]
     
     | Course | Description | Score |
     | :--- | :--- | :--- |
-    | Caculus |  2-semester| (A+, A+) |
+    | Calculus |  2-semester| (A+, A+) |
     | University Physics |  2-semester| (A, B) |
     | Organic Chemistry |  2-semester| (A, A) |
     | Physical Chemistry |  2-semester| (B+, A+) |
@@ -28,22 +28,6 @@ Email: [biruihao@stu.xmu.edu.cn](mailto:biruihao@stu.xmu.edu.cn) or [brh@qq.com]
     | Chemical Kinetics and Reaction Dynamics |  1-semester| (A+) |
 
 ## Academic Experience
-
-### Research Towards Synthesis of Clionastatin B
-
-(Undergraduate thesis) 
-
-Sept. 2019 - May. 2021
-
-Supervisor: Prof. Yandong Zhang, XMU. [Group Page](https://zhanglab.xmu.edu.cn/)
-
-- A facial selective epoxydation of an electronic deficient enone.
-- Enone formation by deprotonation of ketone.
-- Attempts to dehydrate a neopentylic alcohol (sterically hindered and susceptible  to rearrangement).
-
-![thesis](./_assets/brh_cv/thesis.jpg)
-
-
 
 ### Machine Learning Potential (MLP) of $\ce{TiO2}$ Water Interface Model and its Application
 
@@ -62,6 +46,21 @@ Supervisor: Prof. Jun Cheng, XMU. [Group Page](https://chengjun.xmu.edu.cn/)
 - Discovered that $\ce{Ti_{CN5}}$ adsorbed water are closer towards ?? $\ce{O_{br}}$ than ?? $\ce{O_{br}}$.
 
 ![rutile]()
+
+### Research Towards Synthesis of Clionastatin B
+
+(Undergraduate thesis) 
+
+Sept. 2019 - May. 2021
+
+Supervisor: Prof. Yandong Zhang, XMU. [Group Page](https://zhanglab.xmu.edu.cn/)
+
+- A facial selective epoxydation of an electronic deficient enone.
+- Enone formation by deprotonation of ketone.
+- Attempts to dehydrate a neopentylic alcohol (sterically hindered and susceptible  to rearrangement).
+
+![thesis](https://github.com/ruihao69/brh-cv/tree/master/MD-CV/_assets/brh_cv/thesis.png)
+
 
 ## Professional Skills
 
