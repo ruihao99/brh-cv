@@ -38,16 +38,14 @@ Jul. 2021 - now
 Supervisor: Prof. Jun Cheng, XMU. [Group Page](https://chengjun.xmu.edu.cn/)
 
 - Trained MLP using `DeePMD` package; dataset exploration using `DPGEN` package.
-
 - Obtained MLP gives DFT accuracy energy/force prediction for terraced  $\ce{TiO2}$ ($[1\overline{1}1]$ step) water interface model.
+- Developed an efficient python (multiprocessing) code to compute dissociation degree of $\ce{Ti_{CN5}}$ adsorbed water.
+- Discovered that water molecules adsorbed above $\ce{Ti_{5c}}$ are closer towards of the of two rows of $\ce{O_{br}}$.
+- Studied hydrogen accepting behavior of $\ce{O_{br}}$ of terraced $\ce{TiO2}$ surface.
 
-- Developed efficient python (multiprocessing) code to compute dissociation degree of $\ce{Ti_{CN5}}$ adsorbed water.
+![rutile](https://github.com/ruihao69/brh-cv/blob/master/MD-CV/_assets/brh_cv/rutile.pdf)
 
-- Discovered that $\ce{Ti_{CN5}}$ adsorbed water are closer towards ?? $\ce{O_{br}}$ than ?? $\ce{O_{br}}$.
-
-![rutile]()
-
-### Research Towards Synthesis of Clionastatin B
+## Research Towards Synthesis of Clionastatin B
 
 (Undergraduate thesis) 
 
