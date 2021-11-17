@@ -43,7 +43,7 @@ Supervisor: Prof. Jun Cheng, XMU. [Group Page](https://chengjun.xmu.edu.cn/)
 - Discovered that water molecules adsorbed above $\ce{Ti_{5c}}$ are closer towards of the of two rows of $\ce{O_{br}}$.
 - Studied hydrogen accepting behavior of $\ce{O_{br}}$ of terraced $\ce{TiO2}$ surface.
 
-![rutile](https://github.com/ruihao69/brh-cv/blob/master/MD-CV/_assets/brh_cv/rutile.pdf)
+![rutile](https://github.com/ruihao69/brh-cv/blob/master/MD-CV/_assets/brh_cv/rutile.png)
 
 ## Research Towards Synthesis of Clionastatin B
 
