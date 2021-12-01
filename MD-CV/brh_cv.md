@@ -44,7 +44,7 @@ Supervisor: Prof. Jun Cheng, XMU. [Group Page](https://chengjun.xmu.edu.cn/)
 - Studied hydrogen accepting behavior of $\ce{O_{br}}$ of terraced $\ce{TiO2}$ surface.
 
 ![rutile](https://github.com/ruihao69/brh-cv/blob/master/MD-CV/_assets/brh_cv/rutile.png)
-![edge_cartoon](https://github.com/ruihao69/brh-cv/blob/master/MD-CV/_assets/brh_cv/top_view-post.png)
+![edge_cartoon](https://github.com/ruihao69/brh-cv/blob/master/MD-CV/_assets/brh_cv/top_view-post.pdf)
 
 ## Research Towards Synthesis of Clionastatin B
 
