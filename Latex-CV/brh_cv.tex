@@ -1,7 +1,12 @@
-\documentclass[11pt, a4paper]{article}
-\usepackage[hmargin={.5 in, .8 in}, vmargin={.5 in, .8 in}]{geometry}
-\usepackage[inline]{enumitem}
+\documentclass[11pt, a4paper]{scrartcl}
+\usepackage[
+text={7in,10in},
+centering,
+nohead, nofoot]{geometry}
+\usepackage{enumitem}
 \setlist[itemize]{nosep}
+%\usepackage{showframe}
+
 
 %%%%%% TODOS %%%%%%
 %* add website
@@ -10,9 +15,7 @@
 %  add DEEPMD, cp2k, python in general, ase,
 % ...
 
-
 %%%
-\usepackage{anysize}
 \usepackage{hyperref}
 \usepackage{setspace}
 \usepackage[version=4]{mhchem}
@@ -26,7 +29,7 @@
 
 \newcommand{\largespace}{\vspace{5mm}}
 
-\renewcommand{\baselinestretch}{1}
+%\renewcommand{\baselinestretch}{1}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%% section config %%%%%%%%%%%%%%%
@@ -38,6 +41,12 @@
 % #1 for items and #2 for the time notation
  
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%% font config %%%%%%%%%%%%%%%%%%
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx} % Use Times
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 %%%
 \setlength{\parskip}{0pt}

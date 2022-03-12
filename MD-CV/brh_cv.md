@@ -21,9 +21,10 @@ Email: [biruihao@stu.xmu.edu.cn](mailto:biruihao@stu.xmu.edu.cn) or [brh@qq.com]
     | Course | Description | Score |
     | :--- | :--- | :--- |
     | Calculus |  2-semester| (A+, A+) |
-    | University Physics |  2-semester| (A, B) |
+    | University Physics |  2-semester| (A, B+) |
     | Organic Chemistry |  2-semester| (A, A) |
-    | Physical Chemistry |  2-semester| (B+, A+) |
+    | Structural Chemistry | 1-semester | (A) |
+    | Physical Chemistry |  2-semester| (A-, A+) |
     | Preliminary Statistical Thermodynamics |  short-semester| (A) |
     | Chemical Kinetics and Reaction Dynamics |  1-semester| (A+) |
 

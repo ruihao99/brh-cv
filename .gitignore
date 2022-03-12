@@ -1,2 +1,5 @@
 *.gz
+*.pdf
 .DS_Store
+
+tmp
