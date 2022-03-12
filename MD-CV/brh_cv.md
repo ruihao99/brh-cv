@@ -2,6 +2,8 @@
 
 Department of Chemistry, Xiamen University, Fujian, P.R.China.
 
+Jun, Cheng Group
+
 Email: [biruihao@stu.xmu.edu.cn](mailto:biruihao@stu.xmu.edu.cn) or [brh@qq.com](mailto:brh6@qq.com) 
 
 ## Education
@@ -30,6 +32,16 @@ Email: [biruihao@stu.xmu.edu.cn](mailto:biruihao@stu.xmu.edu.cn) or [brh@qq.com]
 
 ## Academic Experience
 
+### Study of thermodynamic stability of different surface hydroxyl terminations for SrFeO3-x
+
+(Research assistant) 
+
+Feb. 2022 - now
+
+Supervisor: Prof. Jun Cheng, XMU. [Group Page](https://chengjun.xmu.edu.cn/)
+
+- Electronic structure calculations and cell parameter optimization for bulk SrFeO3-x (x=0, 1/8, 2/8, 4/8) at PBE, PBE+U and MGGA-SCAN level.
+
 ### Machine Learning Potential (MLP) of $\ce{TiO2}$ Water Interface Model and its Application
 
 (Research assistant) 
@@ -38,11 +50,18 @@ Jul. 2021 - now
 
 Supervisor: Prof. Jun Cheng, XMU. [Group Page](https://chengjun.xmu.edu.cn/)
 
-- Trained MLP using `DeePMD` package; dataset exploration using `DPGEN` package.
-- Obtained MLP gives DFT accuracy energy/force prediction for terraced  $\ce{TiO2}$ ($[1\overline{1}1]$ step) water interface model.
-- Developed an efficient python (multiprocessing) code to compute dissociation degree of $\ce{Ti_{CN5}}$ adsorbed water.
-- Discovered that water molecules adsorbed above $\ce{Ti_{5c}}$ are closer towards of the of two rows of $\ce{O_{br}}$.
-- Studied hydrogen accepting behavior of $\ce{O_{br}}$ of terraced $\ce{TiO2}$ surface.
+- Obtained MLP gives DFT accuracy energy/force prediction for TiO2 water interface models with \[1-11\] step defect. (`DeePMD-kit` and `DPGEN` sutie)
+
+- Studied the effect of TiO2 step edge (\[1-11\]) on surface water behaviors. (Water dissociation and spatial distribution).
+
+- Studied the well-known size effect in TiO2 simulations. Researched the effect of TiO2 size on surface water dissociation by running DPMD of TiO2 slabs with varied number of Ti-O tri-layers.
+
+- Developed efficient python codes:
+  
+  - Surface water dissociation degree from MD simulation;
+
+  - Spatial distribution of surface water and oxygen bridge confirms the double row pattern of surface water found in EC-STM experiment.
+
 
 ![rutile](https://github.com/ruihao69/brh-cv/blob/master/MD-CV/_assets/brh_cv/rutile.png)
 ![edge_cartoon](https://github.com/ruihao69/brh-cv/blob/master/MD-CV/_assets/brh_cv/top_view-post.png)
@@ -55,9 +74,9 @@ Sept. 2019 - May. 2021
 
 Supervisor: Prof. Yandong Zhang, XMU. [Group Page](https://zhanglab.xmu.edu.cn/)
 
-- A facial selective epoxydation of an electronic deficient enone.
-- Enone formation by deprotonation of ketone.
-- Attempts to dehydrate a neopentylic alcohol (sterically hindered and susceptible  to rearrangement).
+- Trained organic lab skills for natural product synthesis.
+- Studied a conformation driven facial-selective epoxydation reaction.
+- Researched dehydration reactions for a tertiary alcohol, which is sterically hindered and susceptible to cation rearrangement.
 
 ![thesis](https://github.com/ruihao69/brh-cv/blob/master/MD-CV/_assets/brh_cv/thesis.jpg)
 
@@ -67,20 +86,21 @@ Supervisor: Prof. Yandong Zhang, XMU. [Group Page](https://zhanglab.xmu.edu.cn/)
 ### Calculation packages
 
 - `DeePMD-kit` series: Training, configuration space exploration, dataset management.
-- `CP2K`: Single point calculation.
+- `CP2K`: Gamma point calculation, cell optimization, PDOS, and etc.
 - `LAMMPS`: MLP molecular dynamics, radial distribution function (RDF) calculation.
 
 ### Programming skills
 
-- `shell` scripting.
-- `python` scripting:  plotting data (`matplotlib`), fast trajecotry analysis (`MDAnalysis`, `ASE`).
+- `shell` scripting: Simple automated workflow, text/data processing, and etc
+- `python` scripting: Plotting data (`matplotlib`), fast MD trajecotry analysis (`MDAnalysis`).
+- `C/C++` and `Cython`: Writting beginner level C-computation functions. Bridged with numpy using `Cython`.
 
 ## Selected Awards
 
 - The Wang Laoji Scholarship, XMU (2/96), Apr. 2021.
 - Sucessful Participant of Mathematical Contest in Modelling, May 2020.
-- The Elite Undergraduate Program of Chemistry Scholarship, XMU (18/168) , 2018-2021, 4 times.
-- Scholarship of Academic Excellence, XMU (15/168), Jan.2018. 
+- The Elite Undergraduate Program of Chemistry Scholarship, XMU (15/168) , 2018-2021, 4 times.
+- Scholarship of Academic Excellence, XMU (10/168), Jan.2018. 
 
 
 
