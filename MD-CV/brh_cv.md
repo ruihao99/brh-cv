@@ -1,5 +1,11 @@
 # Ruihao Bi
 
+Publication:
+
+- Hao CuiHao Cui, Yang Shen, Yanyu Chen, Ruifeng Wang, Haoxiang Wei, Pengfei Fu, Xin Lei, Haoxiang Wang, *Ruihao Bi*, and **Yandong Zhang**\*. Two-Stage Syntheses of Clionastatins A and B. *J. Am. Chem. Soc.* **2022**, XXXX, XXX, XXX-XXX [link](https://pubs.acs.org/doi/10.1021/jacs.2c03872)
+
+Current affiliation:
+
 Department of Chemistry, Xiamen University, Fujian, P.R.China.
 
 Jun, Cheng Group
@@ -10,7 +16,7 @@ Email: [biruihao@stu.xmu.edu.cn](mailto:biruihao@stu.xmu.edu.cn) or [brh@qq.com]
 
 **Xiamen University** (XMU)
 
-- Research Assistant, Department of Chemistry, Jul. 2021 - now.
+- Research Assistant, Department of Chemistry, Jul. 2021 - Jun. 2022
 
 - Bachelor of Chemistry, Sept. 2017 - Jun. 2021
 
@@ -36,17 +42,19 @@ Email: [biruihao@stu.xmu.edu.cn](mailto:biruihao@stu.xmu.edu.cn) or [brh@qq.com]
 
 (Research assistant) 
 
-Feb. 2022 - now
+Feb. 2022 - May. 2022
 
 Supervisor: Prof. Jun Cheng, XMU. [Group Page](https://chengjun.xmu.edu.cn/)
 
 - Electronic structure calculations and cell parameter optimization for bulk SrFeO3-x (x=0, 1/8, 2/8, 4/8) at PBE, PBE+U and MGGA-SCAN level.
 
+- Formation energy of defects calculation.
+
 ### Machine Learning Potential (MLP) of $\ce{TiO2}$ Water Interface Model and its Application
 
 (Research assistant) 
 
-Jul. 2021 - now
+Jul. 2021 - Jun. 2022
 
 Supervisor: Prof. Jun Cheng, XMU. [Group Page](https://chengjun.xmu.edu.cn/)
 
@@ -56,7 +64,7 @@ Supervisor: Prof. Jun Cheng, XMU. [Group Page](https://chengjun.xmu.edu.cn/)
 
 - Studied the well-known size effect in TiO2 simulations. Researched the effect of TiO2 size on surface water dissociation by running DPMD of TiO2 slabs with varied number of Ti-O tri-layers.
 
-- Developed efficient python codes:
+- Developed efficient MDAnalysis python codes:
   
   - Surface water dissociation degree from MD simulation;
 
@@ -75,7 +83,9 @@ Sept. 2019 - May. 2021
 Supervisor: Prof. Yandong Zhang, XMU. [Group Page](https://zhanglab.xmu.edu.cn/)
 
 - Trained organic lab skills for natural product synthesis.
+
 - Studied a conformation driven facial-selective epoxydation reaction.
+
 - Researched dehydration reactions for a tertiary alcohol, which is sterically hindered and susceptible to cation rearrangement.
 
 ![thesis](https://github.com/ruihao69/brh-cv/blob/master/MD-CV/_assets/brh_cv/thesis.jpg)
@@ -86,21 +96,26 @@ Supervisor: Prof. Yandong Zhang, XMU. [Group Page](https://zhanglab.xmu.edu.cn/)
 ### Calculation packages
 
 - `DeePMD-kit` series: Training, configuration space exploration, dataset management.
+
 - `CP2K`: Gamma point calculation, cell optimization, PDOS, and etc.
-- `LAMMPS`: MLP molecular dynamics, radial distribution function (RDF) calculation.
+
+- `LAMMPS`: MLP molecular dynamics, radial distribution function (RDF) calculation, and etc.
 
 ### Programming skills
 
 - `shell` scripting: Simple automated workflow, text/data processing, and etc
-- `python` scripting: Plotting data (`matplotlib`), fast MD trajecotry analysis (`MDAnalysis`).
-- `C/C++` and `Cython`: Writting beginner level C-computation functions. Bridged with numpy using `Cython`.
+
+- `python` scripting: Plotting data (`matplotlib`), fast MD trajecotry analysis (`MDAnalysis`), and etc.
+
+- `C/C++` and `Cython`: Writting beginner level C-computation functions, which are interfaced with numpy using `Cython`.
 
 ## Selected Awards
 
 - The Wang Laoji Scholarship, XMU (2/96), Apr. 2021.
+
 - Sucessful Participant of Mathematical Contest in Modelling, May 2020.
+
 - The Elite Undergraduate Program of Chemistry Scholarship, XMU (15/168) , 2018-2021, 4 times.
+
 - Scholarship of Academic Excellence, XMU (10/168), Jan.2018. 
-
-
 
