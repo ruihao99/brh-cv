@@ -10,7 +10,7 @@ Email: [biruihao@stu.xmu.edu.cn](mailto:biruihao@stu.xmu.edu.cn) or [brh@qq.com]
 
 ## Publication:
 
-- Hao Cui, Yang Shen, Yanyu Chen, Ruifeng Wang, Haoxiang Wei, Pengfei Fu, Xin Lei, Haoxiang Wang, ***Ruihao Bi***, and Yandong Zhang\*. Two-Stage Syntheses of Clionastatins A and B. *J. Am. Chem. Soc.* **2022**, XXXX, XXX, XXX-XXX [link](https://pubs.acs.org/doi/10.1021/jacs.2c03872)
+- Hao Cui, Yang Shen, Yanyu Chen, Ruifeng Wang, Haoxiang Wei, Pengfei Fu, Xin Lei, Haoxiang Wang, ***Ruihao Bi***, and Yandong Zhang\*. Two-Stage Syntheses of Clionastatins A and B. *J. Am. Chem. Soc.* **2022**, 144, 20, 8938–8944. [link](https://pubs.acs.org/doi/10.1021/jacs.2c03872)
 
 ## Education
 
