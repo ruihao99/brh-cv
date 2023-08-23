@@ -1,14 +1,26 @@
 # Ruihao Bi
 
-## Current affiliation:
+## Current affiliations:
 
-Department of Chemistry, Xiamen University, Fujian, P.R.China.
+PhD. Student @
+[Wenjie, Dou Group](https://dougroup.westlake.edu.cn/index.html) School of Science, Westlake University, Zhejiang, P.R.China.
 
-Jun, Cheng Group
+## Previous affiliations:
 
-Email: [biruihao@stu.xmu.edu.cn](mailto:biruihao@stu.xmu.edu.cn) or [brh@qq.com](mailto:brh6@qq.com) 
+Research assitant @
+[Jun, Cheng Group](https://cheng-group.net) Department of Chemistry, Xiamen University, Fujian, P.R.China.
 
-## Publication:
+Undergraduate project @
+[Yandong, Zhang Group](https://zhanglab.xmu.edu.cn) Department of Chemistry, Xiamen University, Fujian, P.R.China.
+
+## Eamils:
+
+Email: [biruihao@westlake.edu.cn](mailto:biruihao@westlake.edu.cn) or [brh@qq.com](mailto:brh6@qq.com) 
+
+## Publications:
+- Yan Sun, Cheng-Rong Wu, Feng Wang, **Rui-Hao Bi**, Yong-Bin Zhuang, Shuai Liu, Ming-Shu Chen, Kelvin H-L Zhang, Jia-Wei Yan, Bing-Wei Mao, Zhong-Qun Tian, Jun Cheng. Step-induced double-row pattern of interfacial water on rutile TiO2 (110) at electrochemical conditions. *ChemRxiv.* **2023** [link](https://doi.org/10.26434/chemrxiv-2023-7wsqv)
+
+- Yong-Bin Zhuang, ***Rui-Hao Bi***, and Jun Cheng. Resolving the odd–even oscillation of water dissociation at rutile TiO2 (110)–water interface by machine learning accelerated molecular dynamics. *J. Chem. Phys.* **2022** 157, 164701 [link](https://doi.org/10.1063/5.0126333)
 
 - Hao Cui, Yang Shen, Yanyu Chen, Ruifeng Wang, Haoxiang Wei, Pengfei Fu, Xin Lei, Haoxiang Wang, ***Ruihao Bi***, and Yandong Zhang\*. Two-Stage Syntheses of Clionastatins A and B. *J. Am. Chem. Soc.* **2022**, 144, 20, 8938–8944. [link](https://pubs.acs.org/doi/10.1021/jacs.2c03872)
 
@@ -38,17 +50,28 @@ Email: [biruihao@stu.xmu.edu.cn](mailto:biruihao@stu.xmu.edu.cn) or [brh@qq.com]
 
 ## Academic Experience
 
+### Nuclear Quantum Effects in the Dynamics of Electron Transfer near Metal Surfaces
+
+(Graduate Research)
+
+Sept. 2022 - now
+
+Supervisor: Prof. Wenjie Dou, Westlake University. [Group Page](https://dougroup.westlake.edu.cn/index.html)
+
+- Developing methods based on electronic friction to predict real time dynamics of electron transfers at meal surface, with special foucuses nuclear quantum effects. 
+
+- Theoretical prediction tunneling rates for electron transfer at metal surfaces using RPMD and ring polymer instanton techniques.
+
+
 ### Study of thermodynamic stability of different surface hydroxyl terminations for SrFeO3-x
 
 (Research assistant) 
 
 Feb. 2022 - May. 2022
 
-Supervisor: Prof. Jun Cheng, XMU. [Group Page](https://chengjun.xmu.edu.cn/)
+Supervisor: Prof. Jun Cheng, XMU. [Group Page](https://cheng-group.net)
 
-- Electronic structure calculations and cell parameter optimization for bulk SrFeO3-x (x=0, 1/8, 2/8, 4/8) at PBE, PBE+U and MGGA-SCAN level.
-
-- Formation energy of defects calculation.
+- Ab inito. electronic structure calculations (DFT) of bulk and surfaces SrFeO3-x. Study the formation energy of various defects.
 
 ### Machine Learning Potential (MLP) of $\ce{TiO2}$ Water Interface Model and its Application
 
@@ -56,27 +79,20 @@ Supervisor: Prof. Jun Cheng, XMU. [Group Page](https://chengjun.xmu.edu.cn/)
 
 Jul. 2021 - Jun. 2022
 
-Supervisor: Prof. Jun Cheng, XMU. [Group Page](https://chengjun.xmu.edu.cn/)
+Supervisor: Prof. Jun Cheng, XMU. [Group Page](https://cheng-group.net)
 
-- Obtained MLP gives DFT accuracy energy/force prediction for TiO2 water interface models with \[1-11\] step defect. (`DeePMD-kit` and `DPGEN` sutie)
+- Trained DeePMD mechine learning force field for TiO2-water interface geometries, We studied the following topics with such model:
 
-- Studied the effect of TiO2 step edge (\[1-11\]) on surface water behaviors. (Water dissociation and spatial distribution).
+- \[1-11\] step-edge induced water molecule dissociations; Chemical adsorption water display a double row pattern due to this stepped structure.
 
-- Studied the well-known size effect in TiO2 simulations. Researched the effect of TiO2 size on surface water dissociation by running DPMD of TiO2 slabs with varied number of Ti-O tri-layers.
-
-- Developed efficient MDAnalysis python codes:
-  
-  - Surface water dissociation degree from MD simulation;
-
-  - Spatial distribution of surface water and oxygen bridge confirms the double row pattern of surface water found in EC-STM experiment.
-
+- The surface water dissociation degrees predicted by MD depends the size of TiO2 slab, precisely, the number of TiO2 tri-layers.
 
 ![rutile](https://github.com/ruihao69/brh-cv/blob/master/MD-CV/_assets/brh_cv/rutile.png)
 ![edge_cartoon](https://github.com/ruihao69/brh-cv/blob/master/MD-CV/_assets/brh_cv/top_view-post.png)
 
 ## Research Towards Synthesis of Clionastatin B
 
-(Undergraduate thesis) 
+(Undergraduate project) 
 
 Sept. 2019 - May. 2021
 
@@ -93,7 +109,7 @@ Supervisor: Prof. Yandong Zhang, XMU. [Group Page](https://zhanglab.xmu.edu.cn/)
 
 ## Professional Skills
 
-### Calculation packages
+### Molecular simulation packages
 
 - `DeePMD-kit` series: Training, configuration space exploration, dataset management.
 
@@ -107,7 +123,7 @@ Supervisor: Prof. Yandong Zhang, XMU. [Group Page](https://zhanglab.xmu.edu.cn/)
 
 - `python` scripting: Plotting data (`matplotlib`), fast MD trajecotry analysis (`MDAnalysis`), and etc.
 
-- `C/C++` and `Cython`: Writting beginner level C-computation functions, which are interfaced with numpy using `Cython`.
+- `C/C++` and `Cython`: Writting intermediate level C-computation functions, which are interfaced with numpy using `Cython`.
 
 ## Selected Awards
 

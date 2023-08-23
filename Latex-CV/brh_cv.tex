@@ -4,6 +4,10 @@ text={7in,10in},
 centering,
 nohead, nofoot]{geometry}
 \usepackage{enumitem}
+
+\usepackage[style=phys, backend=biber]{biblatex}
+\addbibresource{ref.bib}
+
 \setlist[itemize]{nosep}
 %\usepackage{showframe}
 
@@ -19,6 +23,7 @@ nohead, nofoot]{geometry}
 \usepackage{hyperref}
 \usepackage{setspace}
 \usepackage[version=4]{mhchem}
+\usepackage{miller}
 %%%
 
 %%%%%%%%% skip defining %%%%%%%%%%%%%%
@@ -52,5 +57,5 @@ nohead, nofoot]{geometry}
 \setlength{\parskip}{0pt}
 
 \begin{document}
-	\input{./cv.tex}
+\input{./cv.tex}
 \end{document}
