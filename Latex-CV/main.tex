@@ -1,0 +1,170 @@
+% !TEX program = xelatex
+% !TEX encoding = UTF-8 Unicode
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Medium Length Professional CV - RESUME main.tex
+%
+% Original header:
+% Copyright (C) 2010 by Trey Hunner 
+%
+% Copying and distribution of this file, with or without 
+% modification, are permitted in any medium without royalty 
+% provided the copyright notice and this notice are 
+% preserved. This file is offered as-is, without any warranty.
+%
+% Modified by Rui-Hao Bi (2024-07).
+%
+% Rui-Hao Bi acknowledges the awesome work of:
+%
+% - Trey Hunner and www.LaTeXTemplates.com
+% - Hongtao Hao (https://github.com/hongtaoh)
+% - N. Gibson (CIS Grad Template (Dev) on Overleaf)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass{resume} 
+
+\usepackage{enumitem}
+\usepackage[version=4]{mhchem}
+
+% for publication list, use chem-acs style  
+\usepackage[
+    backend=biber,%
+    style=phys,%
+    maxnames=99,%
+]{biblatex}
+\addbibresource{publications.bib}
+
+\renewcommand*{\mkbibnamegiven}[1]{%
+  \ifitemannotation{highlight}
+    {\textbf{#1}}
+    {#1}}
+
+\renewcommand*{\mkbibnamefamily}[1]{%
+  \ifitemannotation{highlight}
+    {\textbf{#1}}
+    {#1}}
+
+
+%-----------------------------------------------------------
+%   PERSONAL INFORMATION: name, phone, email, address
+%-----------------------------------------------------------
+\name{Rui-Hao Bi} % Your name
+% You can merge both of these into a single line, if you do not have a website.
+\address{+(86) 18605025530 \\ Hangzhou, Zhejiang, China} % Your phone number and email
+\address{\href{mailto:biruihao@westlake.edu.cn}{biruihao@westlake.edu.cn} \\ \href{https://github.com/ruihao99}{https://github.com/ruihao99}}  %
+
+\begin{document}
+
+%-----------------------------------------------------------
+%   EDUCATION
+%-----------------------------------------------------------
+\begin{rSection}{Education}
+    \lrone{Westlake University (WLU)}{Hangzhou, China} \\
+    \lrtwo{Ph.D. in Chemistry}{Aug 2022 -- Jun 2027 (expected)}
+    \begin{itemize}[noitemsep, nosep]
+        \item Finished all required courses and passed thesis proposal defense.
+        \item Research interests: nuclear quantum effects, metal surface nonadiabatic dynamics and chemical rate theory.
+    \end{itemize}
+
+    \lrone{Xiamen University (XMU)}{Xiamen, China} \\
+    \lrtwo{B.S. in Chemistry}{Sep 2017 -- Jun 2021}
+    \begin{itemize}[noitemsep, nosep]
+        \item GPA 3.79/4.00 (Rank: 3/97); selected to Elite Undergraduate Program (Top 15\%).
+        \item Relevant coursework: Calculus, Physics, Physical Chemistry, Chemical Kinetics and Dynamics. (All top 5\%)
+    \end{itemize}
+\end{rSection}
+
+%-----------------------------------------------------------
+%   PUBLICATIONS
+%-----------------------------------------------------------
+\begin{rSection}{Publication List}
+    \textbf{Nonadiabatic dynamics and Nuclear Quantum Effects}
+    \begin{enumerate}
+        \item \fullcite{Bispinlattice2024}\showpdf{https://dougroup.westlake.edu.cn/pdf/Now-2021/59.pdf}
+        \item \fullcite{Birpmd2024}\showpdf{https://dougroup.westlake.edu.cn/pdf/Now-2021/54.pdf}
+    \end{enumerate}
+
+    \textbf{Machine Learning Accelerated Molecular Dynamics for Electrochemical Interfaces}
+    \begin{enumerate}
+        \item \fullcite{Sun2024} \showcode{https://github.com/robinzyb/ECToolkits}
+        \item \fullcite{Zhuang2022} \showcode{https://github.com/robinzyb/ECToolkits}
+    \end{enumerate}
+    \textbf{Synthetic Organic Chemistry}    
+    \begin{enumerate}
+        \item \fullcite{Cui2022} 
+    \end{enumerate}
+\end{rSection}
+
+
+%-----------------------------------------------------------
+%   RESEARCH EXPERIENCE
+%-----------------------------------------------------------
+\begin{rSection}{Research Experience}
+    \lrone{Westlake University (WLU)}{Hangzhou, China} \\
+    \lrtwo{Research Assistant to Prof. Wenjie Dou}{Aug 2022 -- Jun 2027 (expected)}
+    \begin{itemize}[noitemsep, nosep]
+        \item Developed a ring polymer molecular dynamics (RPMD) extension to the electronic friction model.
+        \item Studied the temprature scaling of the spin-lattice relaxation time in the strong spin-phonon coupling regime.
+        \item (on-going) Studying the full configuration interaction (FCI) solution of the Newns-Anderson model, is there any many-body effects missing from the standard Indpendent Electron Surface Hopping (IESH) method?
+        \item (on-going) Developing Floquet-based surface hopping method for nonadiabatic dynamics under the driving of an shaped laser pulse. How good is Floquet-based method when the laser is not exactly periodic?
+        \item (on-going) Proposing a generalized Langevin dynamics model to explain how the collective coupling of molecules to the photocavity can drasticly affect the chemical reaction rates.
+    \end{itemize}
+
+    \lrone{Xiamen University (XMU)}{Xiamen, China} \\
+    \lrtwo{Research Assistant to Prof. Jun Cheng}{Jun 2021 -- Jun 2022}
+    \begin{itemize}[noitemsep, nosep]
+        \item Trained machine learning model for \ce{TiO2}-water interface with Density Functional Theory (DFT) data.   
+        \item Simulation of step-edge enhanced water dissociation on rutile \ce{TiO2}.
+        \item Simulation of step-edge induced water double row patterns on rutile \ce{TiO2} observed in Scanning Tunneling Microscopy (STM).
+        \item Converged the water dissociation degree on rutile \ce{TiO2} with a 3000-atom rutile slab.
+    \end{itemize}
+
+    \lrone{Xiamen University (XMU)}{Xiamen, China} \\
+    \lrtwo{Research Assistant to Prof. Yandong Zhang}{Jun 2019 -- May 2021}
+    \begin{itemize}[noitemsep, nosep]
+        \item Trained in synthetic organic chemistry, including Schlenk line operation, column chromatography, and NMR. 
+        \item Studied the elimination reaction of a hydroxyl group adjacent to the neopentyl position on a cyclohexane ring.
+    \end{itemize}
+\end{rSection}
+
+
+%-----------------------------------------------------------
+%   Teaching and Internships	
+%-----------------------------------------------------------
+\begin{rSection}{Teaching and Internships}
+    \lrone{Westlake University}{Hangzhou, China} \\
+    \lrtwo{Teaching assistant}{Sep 2023 -- Jan 2024} 
+    \begin{itemize}[noitemsep, nosep]
+        \item Tutoring duty for the Undergraduate "Computer and Programming" course (instructor: Prof. Yue Zhang).
+    \end{itemize}
+
+\end{rSection}
+
+
+%-----------------------------------------------------------
+%   AWARDS AND HONORS 
+%-----------------------------------------------------------
+\begin{rSection}{Selected Awards And Honors}
+    \begin{itemize}[noitemsep, nosep]
+        \item Wang Laoji Scholarship, XMU (2/96) \hfill Apr. 2021.
+        \item Successful Participant of Mathematical Contest in Modelling (MCM)$^\copyright$ \hfill May 2020.
+        \item Elite Undergraduate Program of Chemistry Scholarship, XMU (15/168)
+              \hspace*{\fill}2018--2021, 4 times.
+        \item Scholarship of Academic Excellence, XMU (10/168) \hfill Mar. 2018.
+    \end{itemize}
+\end{rSection}
+
+
+%-----------------------------------------------------------
+%   TECHINICAL STRENGTHS	
+%-----------------------------------------------------------
+\begin{rSection}{Computer and Language Skills}
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+    Programming \& Software: & C/C++, Fortran, Python, Linux, CP2K, DeepMD-kit, LAMMPS \\
+    Language: & Mandarin Chinese (native), English (proficient, TOEFL iBT: 103, dated Nov. 2021)
+\end{tabular}
+\end{rSection}
+
+\end{document}
