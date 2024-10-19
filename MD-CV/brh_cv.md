@@ -1,24 +1,29 @@
-# Ruihao Bi
+# Rui-Hao Bi
 
 ## Current affiliations:
 
-PhD. Student @
+3rd Year PhD. Candidate @
 [Wenjie, Dou Group](https://dougroup.westlake.edu.cn/index.html) School of Science, Westlake University, Zhejiang, P.R.China.
 
 ## Previous affiliations:
-
-Research assitant @
+Research assistant @
 [Jun, Cheng Group](https://cheng-group.net) Department of Chemistry, Xiamen University, Fujian, P.R.China.
 
 Undergraduate project @
 [Yandong, Zhang Group](https://zhanglab.xmu.edu.cn) Department of Chemistry, Xiamen University, Fujian, P.R.China.
 
-## Eamils:
+## Email:
 
 Email: [biruihao@westlake.edu.cn](mailto:biruihao@westlake.edu.cn) or [brh@qq.com](mailto:brh6@qq.com) 
 
 ## Publications:
-- Yan Sun, Cheng-Rong Wu, Feng Wang, **Rui-Hao Bi**, Yong-Bin Zhuang, Shuai Liu, Ming-Shu Chen, Kelvin H-L Zhang, Jia-Wei Yan, Bing-Wei Mao, Zhong-Qun Tian, Jun Cheng. Step-induced double-row pattern of interfacial water on rutile TiO2 (110) at electrochemical conditions. *ChemRxiv.* **2023** [link](https://doi.org/10.26434/chemrxiv-2023-7wsqv)
+### Westlake
+- **Rui-Hao Bi**, Yu Su, Yao Wang, Lei Sun, Wenjie Dou. Spin-lattice relaxation with non-linear couplings: Comparison between Fermi's golden rule and extended dissipaton equation of motion. *The Journal of Chemical Physics.* **2024** [link](https://doi.org/10.1063/5.0212870)
+ 
+- **Rui-Hao Bi**, Wenjie Dou. Electronic friction near metal surface: Incorporating nuclear quantum effect with ring polymer molecular dynamics. *The Journal of Chemical Physics.* **2024** [link](https://doi.org/10.1063/5.0187646)
+
+### Before Westlake
+- Yan Sun, Cheng-Rong Wu, Feng Wang, **Rui-Hao Bi**, Yong-Bin Zhuang, Shuai Liu, Ming-Shu Chen, Kelvin H-L Zhang, Jia-Wei Yan, Bing-Wei Mao, Zhong-Qun Tian, Jun Cheng. Step-induced double-row pattern of interfacial water on rutile TiO2 (110) at electrochemical conditions. *Chemical Science.* **2024** [link](https://pubs.rsc.org/en/content/articlehtml/2024/sc/d4sc01952k)
 
 - Yong-Bin Zhuang, ***Rui-Hao Bi***, and Jun Cheng. Resolving the odd–even oscillation of water dissociation at rutile TiO2 (110)–water interface by machine learning accelerated molecular dynamics. *J. Chem. Phys.* **2022** 157, 164701 [link](https://doi.org/10.1063/5.0126333)
 
@@ -26,7 +31,7 @@ Email: [biruihao@westlake.edu.cn](mailto:biruihao@westlake.edu.cn) or [brh@qq.co
 
 ## Education
 
-**Xiamen University** (XMU)
+**Xiamen University** (XMU, Undergraduate)
 
 - Research Assistant, Department of Chemistry, Jul. 2021 - Jun. 2022
 
@@ -38,29 +43,41 @@ Email: [biruihao@westlake.edu.cn](mailto:biruihao@westlake.edu.cn) or [brh@qq.co
 
   - Relevant Coursework: 
     
-    | Course | Description | Score |
-    | :--- | :--- | :--- |
-    | Calculus |  2-semester| (A+, A+) |
-    | University Physics |  2-semester| (A, B+) |
-    | Organic Chemistry |  2-semester| (A, A) |
-    | Structural Chemistry | 1-semester | (A) |
-    | Physical Chemistry |  2-semester| (A-, A+) |
-    | Preliminary Statistical Thermodynamics |  short-semester| (A) |
-    | Chemical Kinetics and Reaction Dynamics |  1-semester| (A+) |
+    | Course                                  | Description    | Score    |
+    | :-------------------------------------- | :------------- | :------- |
+    | Calculus                                | 2-semester     | (A+, A+) |
+    | University Physics                      | 2-semester     | (A, B+)  |
+    | Organic Chemistry                       | 2-semester     | (A, A)   |
+    | Structural Chemistry                    | 1-semester     | (A)      |
+    | Physical Chemistry                      | 2-semester     | (A-, A+) |
+    | Preliminary Statistical Thermodynamics  | short-semester | (A)      |
+    | Chemical Kinetics and Reaction Dynamics | 1-semester     | (A+)     |
 
 ## Academic Experience
 
-### Nuclear Quantum Effects in the Dynamics of Electron Transfer near Metal Surfaces
-
 (Graduate Research)
 
-Sept. 2022 - now
+### Spin-lattice relaxation with non-linear couplings: Comparison between Fermi's golden rule and extended dissipaton equation of motion
+May. 2022 - Aug. 2026
 
 Supervisor: Prof. Wenjie Dou, Westlake University. [Group Page](https://dougroup.westlake.edu.cn/index.html)
 
-- Developing methods based on electronic friction to predict real time dynamics of electron transfers at meal surface, with special foucuses nuclear quantum effects. 
+- (done) Derived the Fermi's golden rule (FGR) for a two-level spin-lattice relaxation model with both linear and non-linear couplings. 
+  
+- (done) Compared the FGR results with the extended dissipaton equation of motion for the same model, indicating the overestimation of the FGR for the relaxation rate in the strong coupling, high temperature regime.
 
-- Theoretical prediction tunneling rates for electron transfer at metal surfaces using RPMD and ring polymer instanton techniques.
+- (on-going, collaboration) Using the FGR and extended dissipaton equation of motion to fit the experimental spin-lattice relaxation data. 
+
+
+### Nuclear Quantum Effects in the Dynamics of Electron Transfer near Metal Surfaces
+
+Sept. 2022 - Nov. 2023
+
+Supervisor: Prof. Wenjie Dou, Westlake University. [Group Page](https://dougroup.westlake.edu.cn/index.html)
+
+- (done) Developed a simple centroid friction extension to the electronic friction (EF) theory to include nuclear quantum effects (NQE) of metal surface charge transfers. 
+
+- (on-going) Theoretical prediction tunneling rates for electron transfer at metal surfaces using RPMD and ring polymer instanton techniques.
 
 
 ### Study of thermodynamic stability of different surface hydroxyl terminations for SrFeO3-x
@@ -117,15 +134,25 @@ Supervisor: Prof. Yandong Zhang, XMU. [Group Page](https://zhanglab.xmu.edu.cn/)
 
 - `LAMMPS`: MLP molecular dynamics, radial distribution function (RDF) calculation, and etc.
 
+- `FFTW` and `pyFFTW`: Fast Fourier Transform (FFT) for efficient fourier space calculation. 
+
 ### Programming skills
 
 - `shell` scripting: Simple automated workflow, text/data processing, and etc
 
 - `python` scripting: Plotting data (`matplotlib`), fast MD trajecotry analysis (`MDAnalysis`), and etc.
 
-- `C/C++` and `Cython`: Writting intermediate level C-computation functions, which are interfaced with numpy using `Cython`.
+- `C/C++`, `Cython`, and `pybind11`: Writting intermediate level C-computation functions, which are interfaced with `numpy` using `Cython` or `pybind11`.
+
+- `Fortran`, `f2py`, and `f90wrap` : Writting computational functions for heavy computational tasks, which are interfaced with `numpy` using `f2py` or `f90wrap`.
+
+- `MPI`: Parallelizing heavy computational tasks, especially for independent trajectory calculations. (Familiar with all the `C`, `f90` and `python` interfaces)
 
 ## Selected Awards
+
+- Best Poster Award, 11th Triennial Congress of the International Society for Theoretical Chemical Physics (ISTCP), Oct. 2024. 
+
+- National Scholarship, WLU, Oct. 2024.
 
 - The Wang Laoji Scholarship, XMU (2/96), Apr. 2021.
 
