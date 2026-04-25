@@ -247,5 +247,12 @@
   [\href{#1}{pdf}]
   \hypersetup{urlcolor=blue}
 }
+\newcommand{\showdataset}[1]{%
+  \hypersetup{urlcolor=magenta} % adjust link color for dataset
+  [\href{#1}{dataset}]
+  \hypersetup{urlcolor=blue}
+}
+
+
 
 

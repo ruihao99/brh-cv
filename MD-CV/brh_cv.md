@@ -2,7 +2,7 @@
 
 ## Current affiliations:
 
-3rd Year PhD. Candidate @
+4th Year PhD. Candidate @
 [Wenjie, Dou Group](https://dougroup.westlake.edu.cn/index.html) School of Science, Westlake University, Zhejiang, P.R.China.
 
 ## Previous affiliations:

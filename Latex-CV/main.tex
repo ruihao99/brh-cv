@@ -26,6 +26,7 @@
 \documentclass{resume} 
 
 \usepackage{enumitem}
+\usepackage{etaremune}  % For reverse enumeration
 \usepackage[version=4]{mhchem}
 
 % for publication list, use chem-acs style  
@@ -64,85 +65,83 @@
     \lrone{Westlake University (WLU)}{Hangzhou, China} \\
     \lrtwo{Ph.D. Candidate in Chemistry}{Aug 2022 -- Jun 2027 (expected)}
     \begin{itemize}[noitemsep, nosep]
-        \item Completed all required coursework and successfully defended thesis proposal (Dec. 2024).
-        \item Research focuses on open quantum systems, nuclear quantum effects, nonadiabatic surface dynamics, and chemical reaction rate theory.
+        \item Completed all required coursework and successfully passed defended thesis proposal (Dec. 2024).
     \end{itemize}
 
     \lrone{Xiamen University (XMU)}{Xiamen, China} \\
     \lrtwo{B.S. in Chemistry}{Sep 2017 -- Jun 2021}
     \begin{itemize}[noitemsep, nosep]
-        \item GPA: 3.79/4.00 (Rank: 3/97); selected for Elite Undergraduate Program (top 15\%).
-        \item Relevant coursework: Calculus, Physics, Physical Chemistry, Chemical Kinetics and Dynamics (all ranked in top 5\%).
+        \item GPA: 3.79/4.00 (Rank: 3/97); Elite Undergraduate Program (top 15\%).
     \end{itemize}
 \end{rSection}
-
-%-----------------------------------------------------------
-%   PUBLICATIONS
-%-----------------------------------------------------------
-\begin{rSection}{Publication List}
-    \textbf{Nonadiabatic dynamics and Nuclear Quantum Effects}
-    \begin{enumerate}
-        \item \fullcite{Wangcavity2025} \showpdf{https://arxiv.org/pdf/2501.12671}
-        \item \fullcite{Maosh2025} \showpdf{https://arxiv.org/pdf/2412.19097}
-        \item \fullcite{Bispinlattice2024} \showpdf{https://arxiv.org/pdf/2404.04803}
-        \item \fullcite{Birpmd2024} \showpdf{https://arxiv.org/pdf/2311.08779}
-    \end{enumerate}
-
-    \textbf{Machine Learning Accelerated Molecular Dynamics for Electrochemical Interfaces}
-    \begin{enumerate}
-        \item \fullcite{Sun2024} \showcode{https://github.com/robinzyb/ECToolkits}
-        \item \fullcite{Zhuang2022} \showcode{https://github.com/robinzyb/ECToolkits}
-    \end{enumerate}
-    \textbf{Synthetic Organic Chemistry}    
-    \begin{enumerate}
-        \item \fullcite{Cui2022} 
-    \end{enumerate}
-\end{rSection}
-
 
 %-----------------------------------------------------------
 %   RESEARCH EXPERIENCE
 %-----------------------------------------------------------
 \begin{rSection}{Research Experience}
     \lrone{Westlake University (WLU)}{Hangzhou, China} \\
-    \lrtwo{Research Assistant to Prof. Wenjie Dou}{Aug 2022 -- Jun 2027 (expected)}
+    \lrtwo{Advisor: Prof. Wenjie Dou}{Aug 2022 -- Jun 2027 (expected)}
     \begin{itemize}[noitemsep, nosep]
-        \item Developed a ring polymer molecular dynamics (RPMD) extension to the electronic friction model for accessing nonadiabatic effects at quantum temperatures.
-        \item Investigated the temperature dependence of spin-lattice relaxation time in the strong spin-phonon coupling regime.
-        \item Developed and implemented the Orbital Surface Hopping (OSH) method; benchmarked against FCI-FSSH and IESH.
-        \item (Ongoing) Developing a Floquet-based surface hopping method for nonadiabatic dynamics driven by shaped laser pulses.
-        \item (Ongoing) Constructing exact quantum correlation functions from memory kernels reconstructed via higher-order moments.
+        \item (Proposed) Thesis: The treatment of electronic-vibrational interactions: from methods to applications.
+        \item (Ongoing) Spin-lattice relaxtion: strong coupling effect in realistic materials.
+        \item \emph{Ab. initio.} Photophysics simulation with high-level coupled cluster quantum chemistry.
+        \item The perturbative and numerically exact treatment of spin-lattice relaxtion.
+        \item Nonadiabatic dynamics at metal interfaces: nuclear quantum effect and orbital surface hopping (model study).
     \end{itemize}
 
     \lrone{Xiamen University (XMU)}{Xiamen, China} \\
-    \lrtwo{Research Assistant to Prof. Jun Cheng}{Jun 2021 -- Jun 2022}
+    \lrtwo{Advisor: Prof. Jun Cheng}{Jun 2021 -- Jun 2022}
     \begin{itemize}[noitemsep, nosep]
-        \item Trained machine learning potentials for the \ce{TiO2}-water interface using Density Functional Theory (DFT) data.  
-        \item Simulated step-edge-enhanced water dissociation on rutile \ce{TiO2}.  
-        \item Reproduced step-edge-induced water double-row patterns on rutile \ce{TiO2} observed via Scanning Tunneling Microscopy (STM).  
-        \item Performed molecular dynamics simulations with a 3000-atom slab model to obtain a converged water dissociation degree on rutile \ce{TiO2}.  
+        \item \ce{TiO2} interface water dissociations and hydrogen bond structures accelerated by Machine Learning.
     \end{itemize}
 
     \lrone{Xiamen University (XMU)}{Xiamen, China} \\
-    \lrtwo{Research Assistant to Prof. Yandong Zhang}{Jun 2019 -- May 2021}
+    \lrtwo{Advisor: Prof. Yandong Zhang}{Jun 2019 -- May 2021}
     \begin{itemize}[noitemsep, nosep]
-        \item Trained in synthetic organic techniques, including Schlenk line operation, column chromatography, and NMR spectroscopy.  
-        \item Investigated the elimination reaction of a hydroxyl group adjacent to a neopentyl position on a cyclohexane ring.
+        \item Thesis: Studies on Several Reactions in the Synthesis of Marine Halogenated Natural Products Clionastatins
     \end{itemize}
 \end{rSection}
 
 
 %-----------------------------------------------------------
-%   Teaching and Internships	
+%   SELECTED PUBLICATIONS
 %-----------------------------------------------------------
-\begin{rSection}{Teaching and Internships}
-    \lrone{Westlake University}{Hangzhou, China} \\
-    \lrtwo{Teaching assistant}{Sep 2023 -- Jan 2024} 
-    \begin{itemize}[noitemsep, nosep]
-        \item Tutoring duty for the Undergraduate "Computer and Programming" course (instructor: Prof. Yue Zhang).
-    \end{itemize}
+\begin{rSection}{Selected Publication List}
+    \textbf{Nonadiabatic dynamics}
+    \begin{enumerate}[series=myenum]
+        \item \fullcite{bi2026accessing} \showpdf{https://arxiv.org/pdf/2604.05734} \showdataset{https://doi.org/10.6084/m9.figshare.31866094}
+        \item \fullcite{bi2026generalized} \showpdf{https://arxiv.org/pdf/2603.01458}
+        % \item \fullcite{liu2026projection} \showpdf{https://arxiv.org/pdf/2602.10629}
+        % \item \fullcite{han2026two} \showpdf{https://arxiv.org/pdf/2601.03863}
+        % \item \fullcite{liu2025absorption} \showpdf{https://arxiv.org/pdf/2506.07430}
+        % \item \fullcite{wang2025mixed} \showpdf{https://arxiv.org/pdf/2509.14248}
+        \item \fullcite{zhou2025tunable} \showpdf{https://arxiv.org/pdf/2506.04885} 
+        \item \fullcite{bi2025universal} \showpdf{https://arxiv.org/pdf/2504.00649} \showcode{https://doi.org/10.5281/zenodo.15393237}
+        \item \fullcite{Maosh2025} \showpdf{https://arxiv.org/pdf/2412.19097} (Contributed equally)
+        \item \fullcite{Bispinlattice2024} \showpdf{https://arxiv.org/pdf/2404.04803}
+        \item \fullcite{Birpmd2024} \showpdf{https://arxiv.org/pdf/2311.08779}
+    \end{enumerate}
 
+    \noindent\textbf{Machine Learning Accelerated Molecular Dynamics for Electrochemical Interfaces}
+    \begin{enumerate}[resume*=myenum]
+        \item \fullcite{Sun2024} \showcode{https://github.com/robinzyb/ECToolkits}
+        \item \fullcite{Zhuang2022} \showcode{https://github.com/robinzyb/ECToolkits} (Contributed equally)
+    \end{enumerate}
 \end{rSection}
+
+%-----------------------------------------------------------
+%  Posters and talks
+%-----------------------------------------------------------
+\begin{rSection}{Posters \& Talks}
+\begin{enumerate}
+    \item \emph{The 35th Chinese Chemical Society (CCS) Congress}, ``Benchmarking RI-CC2 for Nonadiabatic Dynamics: The Ultrafast Internal Conversion in Pyrazine'', Chongqing, Apr. 2026, \textbf{poster} \showpdf{https://github.com/ruihao99/brh-cv/blob/master/posters_and_talk/CCS_35_talk_20260412.pdf}.
+    \item \emph{The 14th Conference on Computational Statistical Mechanics of Complex Systems (CSMCS2025)}, ``Exact quantum dynamics of open systems from memory kernel coupling theory: computation of higher-order moments'', Shenzhen, Nov. 2025, \textbf{talk} \showpdf{https://github.com/ruihao99/brh-cv/blob/master/posters_and_talk/CSMCS2025_talk_20251107.pdf}.
+    \item \emph{The 19th National Conference on Chemical Dynamics (NCCD19)}, ``Exact quantum dynamics of open systems from memory kernel coupling theory: computation of higher-order moments'', Chun'an, Oct. 2025, \textbf{poster} \showpdf{https://github.com/ruihao99/brh-cv/blob/master/posters_and_talk/NCCD_19_poster_20250919.pdf}.
+    \item \emph{The 11th Triennial Congress of the International Society for Theoretical Chemical Physics (ISTCP)}, ``Describing Nuclear Quantum Effects in Coupled Nuclear-Electron Dynamics at Gas-Metal Surface'', Qingdao, Oct. 2024, \textbf{poster} \showpdf{https://github.com/ruihao99/brh-cv/blob/master/posters_and_talk/ISTCP_11_poster_20241015.pdf}.
+\end{enumerate}
+\end{rSection}
+
+
 
 
 %-----------------------------------------------------------
@@ -166,9 +165,24 @@
 %-----------------------------------------------------------
 \begin{rSection}{Computer and Language Skills}
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-    Programming \& Software: & C/C++, Fortran, Python, Julia, Linux, CP2K, DeepMD-kit, LAMMPS \\
+    Programming \& Software: & Python (mainly), C/C++, Fortran, MPI, CP2K, Q-Chem (developer) \\
     Language: & Mandarin Chinese (native), English (proficient, TOEFL iBT: 103, dated Nov. 2021)
 \end{tabular}
 \end{rSection}
+
+
+
+%-----------------------------------------------------------
+%   Teaching and Internships	
+%-----------------------------------------------------------
+\begin{rSection}{Teaching and Internships}
+    \lrone{Westlake University}{Hangzhou, China} \\
+    \lrtwo{Teaching assistant}{Sep 2023 -- Jan 2024} 
+    \begin{itemize}[noitemsep, nosep]
+        \item Tutoring duty for the Undergraduate "Computer and Programming" course (instructor: Prof. Yue Zhang).
+    \end{itemize}
+
+\end{rSection}
+
 
 \end{document}
