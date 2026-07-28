@@ -1,0 +1,177 @@
+% !TEX program = xelatex
+% !TEX encoding = UTF-8 Unicode
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Medium Length Professional CV - RESUME main.tex
+%
+% Original header:
+% Copyright (C) 2010 by Trey Hunner 
+%
+% Copying and distribution of this file, with or without 
+% modification, are permitted in any medium without royalty 
+% provided the copyright notice and this notice are 
+% preserved. This file is offered as-is, without any warranty.
+%
+% Modified by Rui-Hao Bi (2024-07).
+%
+% Rui-Hao Bi acknowledges the awesome work of:
+%
+% - Trey Hunner and www.LaTeXTemplates.com
+% - Hongtao Hao (https://github.com/hongtaoh)
+% - N. Gibson (CIS Grad Template (Dev) on Overleaf)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass{resume} 
+
+\usepackage{enumitem}
+\usepackage{etaremune}  % For reverse enumeration
+\usepackage[version=4]{mhchem}
+
+% for publication list, use chem-acs style  
+\usepackage[
+    backend=biber,%
+    style=phys,%
+    maxnames=99,%
+]{biblatex}
+\addbibresource{publications.bib}
+
+\renewcommand*{\mkbibnamegiven}[1]{%
+  \ifitemannotation{highlight}
+    {\textbf{#1}}
+    {#1}}
+
+\renewcommand*{\mkbibnamefamily}[1]{%
+  \ifitemannotation{highlight}
+    {\textbf{#1}}
+    {#1}}
+
+%-----------------------------------------------------------
+%   PERSONAL INFORMATION: name, phone, email, address
+%-----------------------------------------------------------
+\name{毕睿豪} % Your name
+% You can merge both of these into a single line, if you do not have a website.
+\address{+(86) 18605025530 \\ 浙江 杭州} % Your phone number and email
+\address{\href{mailto:biruihao@westlake.edu.cn}{biruihao@westlake.edu.cn} \\ \href{https://github.com/ruihao99}{https://github.com/ruihao99}}  %
+
+\begin{document}
+
+%-----------------------------------------------------------
+%   EDUCATION
+%-----------------------------------------------------------
+\begin{rSection}{教育经历}
+    \lrone{西湖大学}{杭州} \\
+    \lrtwo{化学博士研究生}{2022年8月 -- 2027年6月（预计）}
+    \begin{itemize}[noitemsep, nosep]
+        \item 完成全部规定课程，并于2024年12月顺利通过博士论文开题答辩。
+    \end{itemize}
+
+    \lrone{厦门大学}{厦门} \\
+    \lrtwo{化学学士}{2017年9月 -- 2021年6月}
+    \begin{itemize}[noitemsep, nosep]
+        \item GPA: 3.79/4.00（排名：3/97）；化学学科拔尖计划（前15\%）。
+    \end{itemize}
+\end{rSection}
+
+%-----------------------------------------------------------
+%   RESEARCH EXPERIENCE
+%-----------------------------------------------------------
+\begin{rSection}{研究经历}
+    \lrone{西湖大学}{杭州} \\
+    \lrtwo{导师：窦文杰教授}{2022年8月 -- 2027年6月（预计）}
+    \begin{itemize}[noitemsep, nosep]
+        \item 凝聚相量子动力学方法的发展与应用
+    \end{itemize}
+
+    \lrone{厦门大学}{厦门} \\
+    \lrtwo{导师：程俊教授}{2021年6月 -- 2022年6月}
+    \begin{itemize}[noitemsep, nosep]
+        \item 机器学习加速的 \ce{TiO2} 界面水离解与氢键结构研究。
+    \end{itemize}
+
+    \lrone{厦门大学}{厦门} \\
+    \lrtwo{导师：张延东教授}{2019年6月 -- 2021年5月}
+    \begin{itemize}[noitemsep, nosep]
+        \item 学士论文：海洋卤代天然产物Clionastatins合成中若干反应的研究
+    \end{itemize}
+\end{rSection}
+
+%-----------------------------------------------------------
+%   SELECTED PUBLICATIONS
+%-----------------------------------------------------------
+\begin{rSection}{代表性论著}
+    \textbf{开放量子系统和非绝热动力学}
+    \begin{enumerate}[series=myenum]
+        \item \fullcite{bi2026accessing} \showpdf{https://arxiv.org/pdf/2604.05734} \showdataset{https://doi.org/10.6084/m9.figshare.31866094}
+        \item \fullcite{bi2026generalized} \showpdf{https://arxiv.org/pdf/2603.01458}
+        % \item \fullcite{liu2026projection} \showpdf{https://arxiv.org/pdf/2602.10629}
+        % \item \fullcite{han2026two} \showpdf{https://arxiv.org/pdf/2601.03863}
+        % \item \fullcite{liu2025absorption} \showpdf{https://arxiv.org/pdf/2506.07430}
+        % \item \fullcite{wang2025mixed} \showpdf{https://arxiv.org/pdf/2509.14248}
+        \item \fullcite{zhou2025tunable} \showpdf{https://arxiv.org/pdf/2506.04885} 
+        \item \fullcite{bi2025universal} \showpdf{https://arxiv.org/pdf/2504.00649} \showcode{https://doi.org/10.5281/zenodo.15393237}
+        \item \fullcite{Maosh2025} \showpdf{https://arxiv.org/pdf/2412.19097}（共同一作）
+        \item \fullcite{Bispinlattice2024} \showpdf{https://arxiv.org/pdf/2404.04803}
+        \item \fullcite{Birpmd2024} \showpdf{https://arxiv.org/pdf/2311.08779}
+    \end{enumerate}
+
+    \noindent\textbf{电化学界面的机器学习加速分子动力学}
+    \begin{enumerate}[resume*=myenum]
+        \item \fullcite{Sun2024} \showcode{https://github.com/robinzyb/ECToolkits}
+        \item \fullcite{Zhuang2022} \showcode{https://github.com/robinzyb/ECToolkits}（共同一作）
+    \end{enumerate}
+\end{rSection}
+
+%-----------------------------------------------------------
+%  Posters and talks
+%-----------------------------------------------------------
+\begin{rSection}{学术会议}
+\begin{enumerate}
+    \item \emph{Path Integral Quantum Mechanics in the Era of Machine Learning (PIQM2026)}, ``Molecular Spin Qubit Relaxation: Temperature Dependence and the Spin–Phonon Polaron Mechanism'', 上海, 2026年7月, \textbf{墙报} \showpdf{https://github.com/ruihao99/brh-cv/blob/master/posters_and_talk/icqc2026_berkerly_202606.pdf}
+    \item \emph{Artificial Intelligence in Molecular: The 1st Degree of Freedom Series Workshop}, ``Molecular Spin Qubit Relaxation: Temperature Dependence and the Spin–Phonon Polaron Mechanism'', 杭州, 2026年7月, \textbf{口头报告} \showpdf{https://github.com/ruihao99/brh-cv/blob/master/posters_and_talk/1st_dof_workshop-20260718.pdf}
+    \item \emph{The 18th International Congress on Quantum Chemistry (ICQC2026)}, ``Molecular Spin Qubit Relaxation: Temperature Dependence and the Spin–Phonon Polaron Mechanism'', 伯克利, 2026年6月, \textbf{墙报} \showpdf{https://github.com/ruihao99/brh-cv/blob/master/posters_and_talk/icqc2026_berkerly_202606.pdf}
+    \item \emph{The 35th Chinese Chemical Society (CCS) Congress}, ``Benchmarking RI-CC2 for Nonadiabatic Dynamics: The Ultrafast Internal Conversion in Pyrazine''，重庆，2026年4月，\textbf{墙报} \showpdf{https://github.com/ruihao99/brh-cv/blob/master/posters_and_talk/CCS_35_talk_20260412.pdf}.
+    \item \emph{The 14th Conference on Computational Statistical Mechanics of Complex Systems (CSMCS2025)}, ``Molecular Spin Qubit Relaxation: Temperature Dependence and the Spin–Phonon Polaron Mechanism''，深圳，2025年11月，\textbf{口头报告} \showpdf{https://github.com/ruihao99/brh-cv/blob/master/posters_and_talk/CSMCS2025_talk_20251107.pdf}.
+    \item \emph{The 19th National Conference on Chemical Dynamics (NCCD19)}, ``Exact quantum dynamics of open systems from memory kernel coupling theory: computation of higher-order moments''，淳安，2025年10月，\textbf{墙报} \showpdf{https://github.com/ruihao99/brh-cv/blob/master/posters_and_talk/NCCD_19_poster_20250919.pdf}.
+    \item \emph{The 11th Triennial Congress of the International Society for Theoretical Chemical Physics (ISTCP)}, ``Describing Nuclear Quantum Effects in Coupled Nuclear-Electron Dynamics at Gas-Metal Surface''，青岛，2024年10月，\textbf{墙报} \showpdf{https://github.com/ruihao99/brh-cv/blob/master/posters_and_talk/ISTCP_11_poster_20241015.pdf}.
+\end{enumerate}
+\end{rSection}
+
+%-----------------------------------------------------------
+%   AWARDS AND HONORS 
+%-----------------------------------------------------------
+\begin{rSection}{主要奖项与荣誉}
+    \begin{itemize}[noitemsep, nosep]
+        \item 最佳海报奖，第11届国际理论化学物理学会大会（ISTCP，9 / 约280人），\hfill 2024年10月  
+        \item 国家奖学金，西湖大学（理学院 3人），\hfill 2024年10月 
+        \item 王老吉奖学金，厦门大学（2/96），\hfill 2021年4月
+        \item 美国大学生数学建模竞赛（MCM）成功参赛奖，\hfill 2020年5月
+        \item 化学学科拔尖计划奖学金，厦门大学（15/168），\hfill 2018–2021年，共4次
+        \item 学业优秀奖学金，厦门大学（10/168），\hfill 2018年3月
+    \end{itemize}
+\end{rSection}
+
+%-----------------------------------------------------------
+%   TECHINICAL STRENGTHS	
+%-----------------------------------------------------------
+\begin{rSection}{计算机与语言能力}
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+    编程与软件： & Python（主要），C/C++，Fortran，MPI，CP2K，Q-Chem（开发者） \\
+    语言能力： & 中文（母语），英文（熟练，TOEFL iBT: 103，日期为2021年11月）
+\end{tabular}
+\end{rSection}
+
+%-----------------------------------------------------------
+%   Teaching and Internships	
+%-----------------------------------------------------------
+\begin{rSection}{教学与实习}
+    \lrone{西湖大学}{杭州} \\
+    \lrtwo{教学助理}{2023年9月 -- 2024年1月} 
+    \begin{itemize}[noitemsep, nosep]
+        \item 担任本科生《计算机与编程》课程（授课教师：张岳教授）的辅导工作。
+    \end{itemize}
+
+\end{rSection}
+
+\end{document}
